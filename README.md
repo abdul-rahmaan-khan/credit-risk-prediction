@@ -29,11 +29,11 @@ The goal is to help financial institutions identify high-risk clients before iss
 - **Business Value:** can identify 43% of potential defaulters with 77% precision
 
 ## Project Structure:
-'''
+```
 credit_risk_model/
 ├── data/            # Raw and processed datasets
 ├── models/          # Trained model files (.pkl)
 ├── notebooks/       # Cleaning, EDA, preprocessing, modeling
 ├── requirements.txt
 └── README.md
-'''
+```
