@@ -7,10 +7,10 @@ The goal is to help financial institutions identify high-risk clients before iss
 
 ## Dataset:
 
-**Source:** UCI Machine Learning Repository
-**Samples:** 30,000 customers
-**Features:** 24 (payment history, bill amounts, credit limit, demographics)
-**Target:** default_next_month (1 = default, 0 = no default)
+- **Source:** UCI Machine Learning Repository
+- **Samples:** 30,000 customers
+- **Features:** 24 (payment history, bill amounts, credit limit, demographics)
+- **Target:** default_next_month (1 = default, 0 = no default)
 
 
 ## Models & Results
@@ -24,14 +24,14 @@ The goal is to help financial institutions identify high-risk clients before iss
 
 ## Key Findings:
 
-**Best Model:** XGBoost (highest accuracy and ROC-AUC)
-**Most Important Features:** payment delays, bill amount history, credit utilization
-**Business Value:** can identify 43% of potential defaulters with 77% precision
+- **Best Model:** XGBoost (highest accuracy and ROC-AUC)
+- **Most Important Features:** payment delays, bill amount history, credit utilization
+- **Business Value:** can identify 43% of potential defaulters with 77% precision
 
 ## Project Structure:
-credit_risk_model/
-├── data/            # Raw and processed datasets
-├── models/          # Trained model files (.pkl)
-├── notebooks/       # Cleaning, EDA, preprocessing, modeling
-├── requirements.txt
-└── README.md
+- credit_risk_model/
+- ├── data/            # Raw and processed datasets
+- ├── models/          # Trained model files (.pkl)
+- ├── notebooks/       # Cleaning, EDA, preprocessing, modeling
+- ├── requirements.txt
+- └── README.md
